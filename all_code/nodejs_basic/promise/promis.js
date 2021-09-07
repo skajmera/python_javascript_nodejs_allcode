@@ -1,4 +1,55 @@
 
+
+
+
+// const promise= new Promise((resolve,result)=>{
+//     var data=true
+//     if(data){
+//         resolve("ok")
+//     }else{
+//         result("not ok")
+//     }
+// })
+
+
+// promise.then((data)=>{
+// console.log(data);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+///////////////////////////////////////////
+
+
+// const promise= new Promise((resolve,result)=>{
+//     var data=false
+//     if(data){
+//         resolve("ok")
+//     }else{
+//         result("not ok")
+//     }
+// })
+/////
+// console.log(promise);
+
+// promise.then((dat)=>{
+// console.log(dat);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+/////////or  ////////
+////////////////////////////////////////  not promises use 
+const handlePromise=async()=>{
+    try{
+    let data1=await promise
+    console.log(data1);
+}
+catch(err){
+    console.log(err);
+}}
+handlePromise()
+
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // let myPromise = new Promise(function (myResolve, myReject) {
 //     let x = setTimeout(function () { myFunction("I love You !!!"); }, 3000);
 //     //// x=0;
